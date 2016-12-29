@@ -3,16 +3,21 @@ print('My name is EZ, What yours human ?')     # asking for human name
 
 human_name = input()   # human type the name
 
+#while human_name != str():                             # prevent Human from typing numbers
+#    print('Name only have words Human, not numbers')   #
+#    print('please type your name Human')               #
+#    human_name = input()                               #
+
 print('Nice to meet you ' + human_name)
 print('How old are you ' + human_name + ' ?')   # asking for human age
 
-human_age = int(input())   # human type the age
+human_age = input()   # human type the age
 
-if human_age <=12:
+if human_age <= '12':
     print('you are still a child I see')
-elif human_age <=18:
+elif human_age <= '18':
     print('you are a teenager I see')
-elif human_age >18:
+elif human_age > '18':
     print('you are adult I see')
 
 #print()
