@@ -14,7 +14,8 @@ print('How old are you ' + human_name + ' ?')   # asking for human age
 human_age = input()   # human type the age
 
 if human_age <= '12':
-    print('you are still a child I see')
+    print('you are still a child I see')   # check age
+    print('you are still a child I see')   # check age
 elif human_age <= '18':
     print('you are a teenager I see')
 elif human_age > '18':
